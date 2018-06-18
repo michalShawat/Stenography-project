@@ -2,16 +2,21 @@
 This part deal with  Saumil Shah's paper "Exploit Delivery via Steganography and Polyglots"
 Stegosploit Toolkit is the toolkit of the paper ,there you can find a readme.txt explaining on the folders
 encoded images - the images we created using the toolkit 
-additional files -created additional file in order to create the images 
+additional files -created additional files ,by us, in order to create the polyglots
 
-
-## Getting Started
-
-
+## Recommendation
+read Saumil Shah's paper "Exploit Delivery via Steganography and Polyglots" can be found in [here] http://stegosploit.info/
 
 ## Deployment
-
-
+1.go to Stegosploit Toolkit/stego and open iterative_encoding
+2.fiil the image path in "input file" field and press load
+3. chose bit layer and fill the exploits in nessery fields and press "porcess"
+4. when it's done the encoded image will downloaded autommetly 
+5. copy the result image to imajs file 
+6.run the appropriate perl file in the commend line. 
+  for exmple for png ''''perl ./html_in_png.pl decoder.html encoded_image.png polyglot_name'''
+  decoder can be found in "exploits" folder (the author) of in "additional files" folder 
+7. the created polyglot can be use as resouse to web server, one can be found in "additional files" folder.
 
 ## Authors
 
@@ -23,5 +28,6 @@ additional files -created additional file in order to create the images
 
 ## Acknowledgments
 
-* Bar-Ilan University
+* Saumil Shah 
+* The BIU Center for Research in Applied Cryptography and Cyber Security in Bar-Ilan University
 
