@@ -5,7 +5,7 @@ encoded images - the images we created using the toolkit
 additional files -created additional files ,by us, in order to create the polyglots
 
 ## Recommendation
-read Saumil Shah's paper "Exploit Delivery via Steganography and Polyglots" can be found in [here] (http://stegosploit.info/)
+Read Saumil Shah's paper "Exploit Delivery via Steganography and Polyglots" can be found in [here](http://stegosploit.info/)
 
 ## Deployment
 1.go to Stegosploit Toolkit/stego and open iterative_encoding
