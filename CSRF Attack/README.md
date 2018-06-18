@@ -7,9 +7,8 @@ from a user that the web application trusts.
 
 Clone the project to your computer.
 
-### Prerequisites
-
-install webstorm .
+### Working framwork
+Webstorm by jetbrains . can be download [here](https://www.jetbrains.com/webstorm/whatsnew/)
 
 ### Installing
 
