@@ -5,7 +5,7 @@ encoded images - the images we created using the toolkit
 additional files -created additional files ,by us, in order to create the polyglots
 
 ## Recommendation
-read Saumil Shah's paper "Exploit Delivery via Steganography and Polyglots" can be found in [here] http://stegosploit.info/
+read Saumil Shah's paper "Exploit Delivery via Steganography and Polyglots" can be found in [here] (http://stegosploit.info/)
 
 ## Deployment
 1.go to Stegosploit Toolkit/stego and open iterative_encoding
@@ -15,7 +15,7 @@ read Saumil Shah's paper "Exploit Delivery via Steganography and Polyglots" can 
 5. copy the result image to imajs file 
 6.run the appropriate perl file in the commend line. 
   for example for png 
-  '''perl
+  '''javascript
   ./html_in_png.pl decoder.html encoded_image.png polyglot_name
   '''
   decoder can be found in "exploits" folder (the author) of in "additional files" folder 
