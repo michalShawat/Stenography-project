@@ -1,16 +1,17 @@
 # Stegosploit
-
+This part deal with  Saumil Shah's paper "Exploit Delivery via Steganography and Polyglots"
+Stegosploit Toolkit is the toolkit of the paper ,there you can find a readme.txt explaining on the folders
+encoded images - the images we created using the toolkit 
+additional files -created additional file in order to create the images 
 
 
 ## Getting Started
 
-1. Clone the project to your computer.
-2. Download CIFAR-10 python version data set from [here](https://www.cs.toronto.edu/~kriz/cifar.html) to this directory.
+
 
 ## Deployment
 
-1. Create empty batchX, encodedX directories (batch1, batch2,...encoded1, encoded2,...) for your desired batches from CIFAR-10.
-2. Run run.py.
+
 
 ## Authors
 
