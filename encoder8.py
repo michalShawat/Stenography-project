@@ -44,6 +44,7 @@ def encode_image(img, malicious):
             encoded.putpixel((col, row), (asc_r, asc_g, asc_b))
     return encoded
 
+
 '''
 get bits representation of number
 pad with 0's for a uniform len
@@ -103,7 +104,8 @@ def decode_image(img):
     return rr
 
 '''
-encode in 8 bytes jumps from the exp dictionary 
+encode the code's bits in 8 bytes jump
+the code is taken from the exp dictionary 
 '''
 def encode8():
     #dictionary of the code (payload) in the len possiable in 4 bytes jumps

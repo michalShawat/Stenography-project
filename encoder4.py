@@ -100,8 +100,10 @@ def decode_image(img):
         res = res[8:]
     return rr
 
+
 '''
-encode in 4 bytes jumps from the exp dictionary 
+encode the code's bits in a byte jump
+the code is taken from the exp dictionary 
 '''
 def encode4():
     #dictionary of the code (payload) in the len possiable in 4 bytes jumps
