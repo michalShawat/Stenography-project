@@ -14,6 +14,7 @@ In this project we trained a decision forest with encoded and unencoded images.
 
 1. Create empty batchX, encodedX directories (batch1, batch2,...encoded1, encoded2,...) for your desired batches from CIFAR-10.
 2. Run run.py.
+3. Download XGBoost.
 
 ## Results
 You can see our results table [here](https://github.com/michalShawat/Stenography/blob/master/results%20table.PNG)
