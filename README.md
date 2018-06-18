@@ -16,8 +16,9 @@ In this project we trained a decision forest with encoded and unencoded images.
 2. Run run.py.
 
 ## Results
-you can see our results [here](https://github.com/michalShawat/Stenography/blob/master/graphUpdated.PNG).
-with depth trees of 256 we managed to acheive around 85% detection on the test sets, regardless to the encoding technique.
+You can see our results table [here](https://github.com/michalShawat/Stenography/blob/master/results%20table.PNG)
+and the graph [here](https://github.com/michalShawat/Stenography/blob/master/graphUpdated.PNG).
+With depth trees of 256 we managed to acheive around 85% detection on the test sets, regardless to the encoding technique.
 
 ## Authors
 
@@ -29,4 +30,4 @@ with depth trees of 256 we managed to acheive around 85% detection on the test s
 
 ## Acknowledgments
 
-* Bar-Ilan University
+* The BIU Center for Research in Applied Cryptography and Cyber Security in Bar-Ilan University
