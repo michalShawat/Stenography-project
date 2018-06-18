@@ -7,12 +7,11 @@ from a user that the web application trusts.
 
 Clone the project to your computer.
 
-### Working framwork
-Webstorm by jetbrains . can be download [here](https://www.jetbrains.com/webstorm/whatsnew/)
-
 ### Installing
 
-Install nodejs and express .
+1. Install Node.js.  can be found [here](https://nodejs.org/en/download/)
+2. Install express. can be found [here](https://expressjs.com/) .
+3. (optional) Install Webstorm by jetbrains . can be download [here](https://www.jetbrains.com/webstorm/whatsnew/)
 
 ## Running 
 
