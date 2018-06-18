@@ -1,0 +1,9 @@
+extends layout
+block content
+    body
+        h1 welcome to the Reflected XSS attack page!
+        p you can enter
+        p div end tag + < + button onmouseover="alert(123)">hi + button end tag + div start tag
+        p  as a user name in the URL
+        p !{name}
+

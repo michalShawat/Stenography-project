@@ -1,0 +1,58 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  width: 100%;
+  background-size: contain;
+  padding: 30px 12px 30px 30px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+
+}
+
+.logout{
+  border-radius: 4px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif ;
+  color: snow;
+  background-color: darkblue;
+  margin-bottom: 50px;
+  margin-top: 100px;
+  padding: 10px 10px 10px 10px;
+
+
+}
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+p{
+  color: black;
+  font: 18px "Comic Sans MS", Helvetica, Arial, sans-serif;
+  text-align: center;
+  padding: 5px 5px 5px ;
+  font-weight: bold;
+
+}
+
+button{
+  background-color: #4169E1;
+  color: white;
+  padding: 20px 20px;
+  margin-right: 40px;
+  margin-left: 40px;
+  border-radius: 55px;
+  cursor: pointer;
+}
+
+
+h1 {
+  color: #00B7FF;
+}

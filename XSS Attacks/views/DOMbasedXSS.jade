@@ -1,0 +1,10 @@
+extends layout
+
+block content
+    h1 welcome to the DOM-based attack page!
+    |Hi
+    script.
+        var pos = document.URL.indexOf("user_name=") + 10;
+        document.write(document.URL.substring(pos, document.URL.length));
+    br
+    | write this after your name, with the script tags: #<>alert("You shouldn't click on unknown links!")<>

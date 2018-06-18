@@ -1,0 +1,15 @@
+extends layout
+
+block content
+    h1 Welcome to #{title}
+    div(class='body')
+        form(method='POST' action='/login' enctype="plain/text")
+            p user name:
+            input( type='textbox' name='userName')
+            p password:
+            input(type='password' name='password2')
+            br
+            div
+                button(type='submit' name='btn' value='Transfer') Transfer
+                button(type='submit' value='SafeTransfer' name='btn') SafeTransfer
+        img(src='../images/bank.jpg' height='110px' width='110px')

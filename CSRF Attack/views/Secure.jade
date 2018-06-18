@@ -1,0 +1,17 @@
+extends layout
+
+block content
+    p with token
+    div(class='body')
+        form(method="POST" name='contactForm' action="/tokenTransfer")
+            input(type="hidden" name="_csrf" value="#{csrfToken}")
+            div
+                label amount
+                input(type='text', name='amount')
+            div
+                label to
+                input(type='text', name='dest' )
+            div
+                input(type='submit', value='secure')
+    br
+    a(class='logout' href='/logout') logout

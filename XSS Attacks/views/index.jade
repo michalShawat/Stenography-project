@@ -1,0 +1,34 @@
+extends layout
+
+block content
+  h1= title
+  p(name="d") Welcome to the #{title}
+  form(name="Login", method="GET" action="/login" )
+    div.input
+      span.label User Name
+      input(type="text", name="u_name")
+    div.input
+      span.label Password
+      input(type="password" name="password")
+    div.actions
+      input(type="submit", value="Persistent XSS")
+  br
+  br
+  br
+  form(name="Login", method="GET" action="/reflectedXSS" )
+    div.input
+            span.label User Name
+            input(type="text", name="user_name")
+        div.actions
+            input(type="submit", value="Reflected XSS")
+  br
+  br
+  form(name="Login", method="GET" action="/DOMbasedXSS" )
+      div.input
+          span.label Name
+          input(type="text", name="user_name")
+      div.actions
+          input(type="submit", value="DOM-based XSS")
+  div
+    img(src="images/wonder.jpg")
+

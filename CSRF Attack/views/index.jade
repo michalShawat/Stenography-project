@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  div(class='body')
+      form(method="GET" action="/register")
+          label(class='lbl') UserName
+          input(type='text' ,name='username' placeholder='username')
+          label Email address
+          input(type='email', aria-describedby='emailHelp', placeholder='Enter email')
+          .form-group
+            label(for='exampleInputPassword1') Password
+            input#exampleInputPassword1.form-control(type='password', placeholder='Password')
+          .form-group
+            button.btn.btn-primary(type='submit') Submit

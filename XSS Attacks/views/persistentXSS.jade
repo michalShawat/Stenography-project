@@ -1,0 +1,30 @@
+extends layout
+
+
+block content
+   h1 hi #{title}!
+   p examples for attacks: (add < and close with the right tag)
+      br
+      |button onmouseover="alert(123)">hi
+      br
+      | b onmouseover=alert('Wufff!')>click me!
+   table(border='1')
+      thead
+         tr
+            th title
+            th Post
+      tbody
+         tr
+            td= "first response!"
+            td= "hello"
+         for item in pagePosts
+            tr
+               td= item.titl
+               td= item.txt
+            p !{item.txt}
+   form(name="Posting", method="POST" action="/persistentXSS" )
+      div.input
+         span.label post
+         input(type="textArea", name="txt_field" height="100")
+      div.actions
+         input(type="submit", value="Post")
