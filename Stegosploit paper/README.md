@@ -2,7 +2,7 @@
 This part deals with  Saumil Shah's paper "Exploit Delivery via Steganography and Polyglots".
 <br /> Stegosploit Toolkit is the toolkit of the paper ,there you can find a readme.txt explaining on the folders.
 <br />encoded images - the images we created using the toolkit .
-<br />additional files -created additional files ,by us, in order to create the polyglots.
+<br />additional files - additional files , created by us, in order to create the polyglots.
 
 ## Recommendation
 Read Saumil Shah's paper "Exploit Delivery via Steganography and Polyglots" can be found in [here](http://stegosploit.info/)
