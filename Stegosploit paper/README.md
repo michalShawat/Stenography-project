@@ -14,7 +14,7 @@ Read Saumil Shah's paper "Exploit Delivery via Steganography and Polyglots" can 
 4. when it's done the encoded image will downloaded 
 5. copy the result image to imajs file 
 6. run the appropriate perl file in the commend line. 
-  for example for png 
+  e.g., 
     ```peal ./html_in_png.pl decoder.html encoded_image.png polyglot_name```
   decoder can be found in "exploits" folder (the author) of in "additional files" folder 
 7. the created polyglot can be use as resouse to web server, one can be found in "additional files" folder.
