@@ -5,7 +5,7 @@ This part deals with  Saumil Shah's paper "Exploit Delivery via Steganography an
 <br />additional files - additional files , created by us, in order to create the polyglots.
 
 ## Recommendation
-Read Saumil Shah's paper "Exploit Delivery via Steganography and Polyglots" can be found in [here](http://stegosploit.info/)
+Read Saumil Shah's paper "Exploit Delivery via Steganography and Polyglots" can be found [here](http://stegosploit.info/)
 
 ## Deployment
 1. go to Stegosploit Toolkit/stego and open iterative_encoding
@@ -27,8 +27,6 @@ Read Saumil Shah's paper "Exploit Delivery via Steganography and Polyglots" can 
 
 * **Michal Shawat** - [michalShawat](https://github.com/michalShawat)
 
-## Acknowledgments
-
-* Saumil Shah 
+## Acknowledgments 
 * The BIU Center for Research in Applied Cryptography and Cyber Security in Bar-Ilan University
-
+* Saumil Shah
