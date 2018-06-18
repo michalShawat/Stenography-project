@@ -9,12 +9,12 @@ In this project we trained a decision forest with encoded and unencoded images.
 
 1. Clone the project to your computer.
 2. Download CIFAR-10 python version data set from [here](https://www.cs.toronto.edu/~kriz/cifar.html) to this directory.
+3. Download XGBoost. You can use this [installation guide](https://xgboost.readthedocs.io/en/latest/build.html)
 
 ## Deployment
 
 1. Create empty batchX, encodedX directories (batch1, batch2,...encoded1, encoded2,...) for your desired batches from CIFAR-10.
 2. Run run.py.
-3. Download XGBoost.
 
 ## Results
 You can see our results table [here](https://github.com/michalShawat/Stenography/blob/master/results%20table.PNG)
