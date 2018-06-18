@@ -8,11 +8,12 @@ In this project we trained a decision forest with encoded and unencoded images.
 ## Getting Started
 
 1. Clone the project to your computer.
-2. Download CIFAR-10 python version data set from https://www.cs.toronto.edu/~kriz/cifar.html to this directory.
+2. Download CIFAR-10 python version data set from [here](https://www.cs.toronto.edu/~kriz/cifar.html) to this directory.
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+1. Create empty batchX, encodedX directories (batch1, batch2,...encoded1, encoded2,...) for your desired batches from CIFAR-10.
+2. Run run.py.
 
 ## Authors
 
