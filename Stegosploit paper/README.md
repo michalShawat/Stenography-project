@@ -1,14 +1,14 @@
 # Stegosploit
 Stegosploit is a type of malware that is inserted into certain extra-data sections of an image. The malware is JavaScript code that can be loaded and executed by a browser. The script can automatically download malicious payloads, upload data, and execute malicious code.
-"Stegosploit" was coined by cyber security researcher Saumil Shah in his paper "Exploit Delivery via Steganography and Polyglots".
+the term "Stegosploit" was coined by cyber security researcher Saumil Shah in his paper "Exploit Delivery via Steganography and Polyglots".
+
+## Recommendation
+Read Saumil Shah's paper "Exploit Delivery via Steganography and Polyglots" can be found [here](http://stegosploit.info/)
 
 ## Folders
 <br /> Stegosploit Toolkit is the toolkit of the paper.
 <br />encoded images - the images we created using the toolkit .
 <br />additional files - additional files , created by us, in order to create the polyglots.
-
-## Recommendation
-Read Saumil Shah's paper "Exploit Delivery via Steganography and Polyglots" can be found [here](http://stegosploit.info/)
 
 ## Deployment
 1. go to Stegosploit Toolkit/stego and open iterative_encoding
