@@ -1,6 +1,9 @@
 # Stegosploit
-This part deals with  Saumil Shah's paper "Exploit Delivery via Steganography and Polyglots".
-<br /> Stegosploit Toolkit is the toolkit of the paper ,there you can find a readme.txt explaining on the folders.
+Stegosploit is a type of malware that is inserted into certain extra-data sections of an image. The malware is JavaScript code that can be loaded and executed by a browser. The script can automatically download malicious payloads, upload data, and execute malicious code.
+"Stegosploit" was coined by cyber security researcher Saumil Shah in his paper "Exploit Delivery via Steganography and Polyglots".
+
+## Folders
+<br /> Stegosploit Toolkit is the toolkit of the paper.
 <br />encoded images - the images we created using the toolkit .
 <br />additional files - additional files , created by us, in order to create the polyglots.
 
@@ -15,7 +18,7 @@ Read Saumil Shah's paper "Exploit Delivery via Steganography and Polyglots" can 
 5. copy the result image to imajs file 
 6. run the appropriate perl file in the commend line. 
   e.g., 
-     <br /> ```peal ./html_in_png.pl decoder.html encoded_image.png polyglot_name```
+     <br /> ```perl ./html_in_png.pl decoder.html encoded_image.png polyglot_name```
   <br />decoder can be found in "exploits" folder (the author) of in "additional files" folder 
 7. the created polyglot can be use as a resouse to web server, one can be found in "additional files" folder.
 
