@@ -3,7 +3,8 @@ Stegosploit is a type of malware that is inserted into certain extra-data sectio
 the term "Stegosploit" was coined by cyber security researcher Saumil Shah in his paper "Exploit Delivery via Steganography and Polyglots".
 
 ## Recommendation
-Read Saumil Shah's paper "Exploit Delivery via Steganography and Polyglots" can be found [here](http://stegosploit.info/)
+1. Read Saumil Shah's paper "Exploit Delivery via Steganography and Polyglots" can be found [here](http://stegosploit.info/)
+2. Work in Linux operating system
 
 ## Folders
 Stegosploit Toolkit is the toolkit of the paper.
