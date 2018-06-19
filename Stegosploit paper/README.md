@@ -4,7 +4,7 @@ the term "Stegosploit" was coined by cyber security researcher Saumil Shah in hi
 
 ## Recommendation
 1. Read Saumil Shah's paper "Exploit Delivery via Steganography and Polyglots" can be found [here](http://stegosploit.info/)
-2. Work in Linux operating system
+2. Work on Linux operating system
 
 ## Folders
 Stegosploit Toolkit is the toolkit of the paper.
