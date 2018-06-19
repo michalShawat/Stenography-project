@@ -4,8 +4,7 @@ the term "Stegosploit" was coined by cyber security researcher Saumil Shah in hi
 
 ## Recommendation
 1. Read Saumil Shah's paper "Exploit Delivery via Steganography and Polyglots" can be found [here](http://stegosploit.info/)
-2. Work on Linux operating system
-
+2. Work in a Linux environment
 ## Folders
 Stegosploit Toolkit is the toolkit of the paper.
 <br />encoded images - the images we created using the toolkit .
@@ -14,8 +13,8 @@ Stegosploit Toolkit is the toolkit of the paper.
 ## Deployment
 1. go to Stegosploit Toolkit/stego and open iterative_encoding
 2. fiil the image path in "input file" field and press load
-3. chose bit layer and fill the exploits in necessary fields and press "process"
-4. when it's done the encoded image will downloaded 
+3. chose bit layer and fill the exploits in necessary fields before pressing "process"
+4. when it's done, the encoded image will downloaded 
 5. copy the result image to imajs file 
 6. run the appropriate perl file in the commend line. 
   e.g., 
