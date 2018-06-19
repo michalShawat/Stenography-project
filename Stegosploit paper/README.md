@@ -17,7 +17,7 @@ Read Saumil Shah's paper "Exploit Delivery via Steganography and Polyglots" can 
   e.g., 
      <br /> ```peal ./html_in_png.pl decoder.html encoded_image.png polyglot_name```
   <br />decoder can be found in "exploits" folder (the author) of in "additional files" folder 
-7. the created polyglot can be use as resouse to web server, one can be found in "additional files" folder.
+7. the created polyglot can be use as a resouse to web server, one can be found in "additional files" folder.
 
 ## Authors
 
