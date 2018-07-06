@@ -10,9 +10,13 @@ the goal was to make a tool of machine learning  to detect a type of steganogra
 3. Encoding various malicious JavaScript codes in 20,000 images taken from the CIFAR-10 dataset and
 <br /> Train Decision Trees with various tree depths using multiple encoding methods.
 
+## Possible future directions
+1. Train a CNN network on our data
+2. Create an encoder with concealing method such as pixel approximation 
+3. Randomize the encoding in the image's pixels
+4. Encode dataset with various image's size 
 
-
- ## Authors
+## Authors
 
 * **Galit Vaknin** - [Galit1321](https://github.com/Galit1321)
 
