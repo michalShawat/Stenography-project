@@ -11,7 +11,7 @@ the goal was to make a tool of machine learning  to detect a type of steganogra
 <br /> Train Decision Trees with various tree depths using multiple encoding methods.
 
 ## Possible future directions
-1. Train a CNN network on our data
+1. Train different machine learning tool in the data such as CNN network
 2. Create an encoder with concealing method such as pixel approximation 
 3. Randomize the encoding in the image's pixels
 4. Encode dataset with various image's size 
